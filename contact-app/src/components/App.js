@@ -20,7 +20,7 @@ function App() {
     email: "spg003@ucsd.edu"},
   ];
   return (
-    <div className='ui container'> 
+    <div className="ui container"> 
       <Header />
       <AddContact />
       <ContactList contacts = {contacts} /> 
