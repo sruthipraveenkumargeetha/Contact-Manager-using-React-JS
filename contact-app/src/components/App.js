@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "./Header";
 import AddContact from "./AddContact";
-//import ContactList from "./ContactList";
+import ContactList from "./ContactList";
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div> 
       <Header />
       <AddContact />
-      {/*<ContactList /> */}
+      <ContactList /> 
     </div>
   );
 }
