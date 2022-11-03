@@ -15,7 +15,7 @@ const ContactCard = (props) => {
             </div>
         </div>
         <i 
-        className="trash alternate outline icon"
+        className="trash alternate outline icon right floated"
         style = {{ color: "red", marginTop: "7px"}}> </i>
     </div>
 
